@@ -1,5 +1,5 @@
 # Read input
-input = open("./input.txt", "r")
+input = open("inputs/input.txt", "r")
 
 # Do stuff
 def sum_digits():
