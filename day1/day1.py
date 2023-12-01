@@ -14,7 +14,6 @@ def sum_digits():
 
 def sum_chars():
     sum_input = []
-    digits = []
     numbers = {'one' : 'o1ne', 'two' : 't2wo', 'three' : 'th3ree', 'four' : 'fo4ur', 'five' : 'fi5ve', 'six' : 's6ix', 'seven' : 'se7ven', 'eight' : 'eig8ht', 'nine' : 'ni9ne'}
     for line in input:
         for word, number in numbers.items():
